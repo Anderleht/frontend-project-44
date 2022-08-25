@@ -1,0 +1,19 @@
+{
+  "name": "@hexlet/code.",
+  "version": "1.0.0",
+  "description": "Первый проект на Хекслете",
+  "main": "bin/brain-games.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anderleht/frontend-project-44.git"
+  },
+  "author": "Artem Donchenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anderleht/frontend-project-44/issues"
+  },
+  "homepage": "https://github.com/Anderleht/frontend-project-44#readme"
+}
