@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Первый проект на Хекслете",
   "main": "bin/brain-games.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "module",
     "url": "git+https://github.com/Anderleht/frontend-project-44.git"
   },
   "author": "Artem Donchenko",
@@ -18,5 +18,9 @@
   "bin": {
     "brain-games": "bin/brain-games.js"
   },
-  "homepage": "https://github.com/Anderleht/frontend-project-44#readme"
+  "homepage": "https://github.com/Anderleht/frontend-project-44#readme",
+  "dependencies": {
+    "process": "^0.11.10",
+    "readline-sync": "^1.4.10"
+  }
 }
