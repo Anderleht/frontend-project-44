@@ -33,4 +33,4 @@ const isNumEven = (num1, num2) => {
   }
   console.log(`Congratulations, ${UserName}!`);
 };
-console.log(isNumEven(1, 100));
+isNumEven(1, 100);
