@@ -1,7 +1,12 @@
 import readlineSync from 'readline-sync';
 import UserName from './cli.js';
 
-const gamePlay = (rule1, rule2) => {
+export const getRandomNum = (min, max) => {
+  const minnum = Math.ceil(min);
+  const maxnum = Math.floor(max);
+  return Math.floor(Math.random() * (maxnum - minnum)) + minnum;
+};
+export const gamePlay = (rule1, rule2) => {
   console.log(`Hello, ${UserName}!`);
   console.log(rule1);
   let indexForGameRule = 0;
@@ -23,4 +28,3 @@ const gamePlay = (rule1, rule2) => {
   }
   console.log(`Congratulations, ${UserName}!`);
 };
-export default gamePlay;

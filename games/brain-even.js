@@ -1,8 +1,5 @@
-const getRandomNum = (min, max) => {
-  const minnum = Math.ceil(min);
-  const maxnum = Math.floor(max);
-  return Math.floor(Math.random() * (maxnum - minnum)) + minnum;
-};
+import { getRandomNum } from '../src/index.js';
+
 const isNumEven = () => {
   const resultArray = [];
   for (let i = 0; i <= 3; i += 1) {
