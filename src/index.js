@@ -21,7 +21,7 @@ export const gamePlay = (rule1, rule2) => {
       console.log('Correct!');
     } else if (answeringame !== userAnswer) {
       console.log(`'${answeringame}' is wrong answer ;(. Correct answer was '${userAnswer}'.`);
-      console.log(`Let's try again, ${UserName}`);
+      console.log(`Let's try again, ${UserName}!`);
       process.exit();
     }
   }
