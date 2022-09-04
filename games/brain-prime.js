@@ -6,9 +6,9 @@ const brainprime = () => {
   let tester = 1;
   let amountofdiv = 0;
   for (let i = 0; i < 3; i += 1) {
-    const number = getRandomNum(2, 50);
+    const number = getRandomNum(3, 50);
     for (let b = 2; b < number; b += 1) {
-      tester += 2;
+      tester += 1;
       if (number % tester === 0) {
         amountofdiv += 1;
       }
@@ -19,7 +19,7 @@ const brainprime = () => {
       }
     }
     resultArray.push(number, result);
-    tester = 2;
+    tester = 1;
     amountofdiv = 0;
   }
   return resultArray;
