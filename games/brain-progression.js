@@ -15,10 +15,11 @@ const brainprogression = () => {
   const resultArray = [];
   let result;
   for (let i = 0; i < 3; i += 1) {
-    const progression = getProgression();
+    let progression = getProgression();
     const index = getRandomNum(1, progression.length - 1);
     result = progression[index];
     progression[index] = '..';
+    progression = progression.join(' ');
     const playrule = `${progression}`;
     resultArray.push(playrule, result);
   }
