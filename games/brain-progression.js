@@ -2,7 +2,7 @@ import { getRandomNum } from '../src/index.js';
 
 const getProgression = () => {
   let begin = getRandomNum(1, 15);
-  const end = getRandomNum(40, 70);
+  const end = getRandomNum(40, 80);
   const step = getRandomNum(3, 10);
   const array = [];
   while (begin <= end) {
