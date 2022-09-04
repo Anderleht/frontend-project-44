@@ -7,7 +7,7 @@ const getRandomSymbol = (arr) => {
 const symbols = ['+', '-', '*'];
 const braincalc = () => {
   const resultArray = [];
-  for (let i = 0; i <= 3; i += 1) {
+  for (let i = 0; i < 3; i += 1) {
     const firstnum = getRandomNum(1, 100);
     const secondnum = getRandomNum(1, 100);
     const symbol = getRandomSymbol(symbols);

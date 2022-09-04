@@ -4,4 +4,5 @@
 example of working brain-even: https://asciinema.org/a/V5F31V8ufAuzgl0VmJ6Ut4lKY
 example of working brain-calc: https://asciinema.org/a/lyHjAbqaiTrkxS0aVx4GEUAqz
 example of working brain-gcd: https://asciinema.org/a/wOijpajGM3fowpHcRC1k9uzNU
-example of working brain-gcd: https://asciinema.org/a/eoh5FR35MUj2UqaGwhMFXgq79
+example of working brain-progression: https://asciinema.org/a/eoh5FR35MUj2UqaGwhMFXgq79
+example of working brain-prime; https://asciinema.org/a/MVOVbtB8sVsNGuckUMuXYKCeG

@@ -7,7 +7,6 @@ export const getRandomNum = (min, max) => {
   return Math.floor(Math.random() * (maxnum - minnum)) + minnum;
 };
 export const gamePlay = (rule1, rule2) => {
-  console.log(`Hello, ${UserName}!`);
   console.log(rule1);
   let indexForGameRule = 0;
   let indexForResult = 1;
