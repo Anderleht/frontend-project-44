@@ -1,4 +1,4 @@
-import { getRandomNum } from '../src/index.js';
+import getRandomNum from '../helper.js';
 
 const getProgression = () => {
   let begin = getRandomNum(1, 15);
@@ -11,7 +11,7 @@ const getProgression = () => {
   }
   return array;
 };
-const brainprogression = () => {
+const getQuestion = () => {
   const resultArray = [];
   let result;
   for (let i = 0; i < 3; i += 1) {
@@ -25,4 +25,4 @@ const brainprogression = () => {
   }
   return resultArray;
 };
-export default brainprogression;
+export default getQuestion;

@@ -1,9 +1,9 @@
-import { getRandomNum } from '../src/index.js';
+import getRandomNum from '../helper.js';
 
-const NOD = (x, y) => {
-  if (y > x) return NOD(y, x);
+const getGcd = (x, y) => {
+  if (y > x) return getGcd(y, x);
   if (!y) return x;
-  return NOD(y, x % y);
+  return getGcd(y, x % y);
 };
 const gameGcd = () => {
   let result;
@@ -12,7 +12,7 @@ const gameGcd = () => {
     const firstnum = getRandomNum(1, 100);
     const secondnum = getRandomNum(1, 100);
     const playrule = `${firstnum} ${secondnum}`;
-    result = NOD(firstnum, secondnum);
+    result = getGcd(firstnum, secondnum);
     resultArray.push(playrule, result);
   }
   return resultArray;

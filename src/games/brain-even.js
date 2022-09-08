@@ -1,4 +1,4 @@
-import { getRandomNum } from '../src/index.js';
+import getRandomNum from '../helper.js';
 
 const isNumEven = () => {
   const resultArray = [];

@@ -1,4 +1,4 @@
-import { getRandomNum } from '../src/index.js';
+import getRandomNum from '../helper.js';
 
 const getRandomSymbol = (arr) => {
   const index = getRandomNum(0, 3);
