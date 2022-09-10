@@ -21,5 +21,5 @@ git clone git@github.com:Anderleht/frontend-project-44.git
 brain-even
 ```
 Игроку нужно ответить "yes" если число чётное и "no" если нет.
-```
+
 [пример игры brain-even](https://asciinema.org/a/V5F31V8ufAuzgl0VmJ6Ut4lKY)
