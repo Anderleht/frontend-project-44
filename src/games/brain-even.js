@@ -1,8 +1,10 @@
 import getRandomNum from '../helper.js';
+import { gameIterations } from '../index.js';
 
-const isNumEven = () => {
+export const gamerule = 'Answer "yes" if the number is even, otherwise answer "no"';
+export const getQuestion = () => {
   const resultArray = [];
-  for (let i = 0; i < 3; i += 1) {
+  for (let i = 0; i < gameIterations; i += 1) {
     const randomNum = getRandomNum(1, 100);
     if (randomNum % 2 === 0) {
       resultArray.push(randomNum, 'yes');
@@ -12,4 +14,3 @@ const isNumEven = () => {
   }
   return resultArray;
 };
-export default isNumEven;

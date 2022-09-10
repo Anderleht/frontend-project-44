@@ -1,11 +1,12 @@
 import readlineSync from 'readline-sync';
 import UserName from './cli.js';
 
-const GetanAnswer = (rule1, rule2) => {
+export const gameIterations = 3;
+export const GetanAnswer = (rule1, rule2) => {
   console.log(rule1);
   let indexForGameRule = 0;
   let indexForResult = 1;
-  for (let i = 0; i < 3; i += 1) {
+  for (let i = 0; i < gameIterations; i += 1) {
     const gameQuestion = rule2[indexForGameRule];
     const userAnswer = String(rule2[indexForResult]);
     console.log(`Question: ${gameQuestion}`);
@@ -22,4 +23,3 @@ const GetanAnswer = (rule1, rule2) => {
   }
   console.log(`Congratulations, ${UserName}!`);
 };
-export default GetanAnswer;

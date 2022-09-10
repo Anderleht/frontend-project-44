@@ -1,13 +1,15 @@
 import getRandomNum from '../helper.js';
+import { gameIterations } from '../index.js';
 
+export const gamerule = 'What is the result of the expression?';
 const getRandomSymbol = (arr) => {
   const index = getRandomNum(0, 3);
   return arr[index];
 };
 const symbols = ['+', '-', '*'];
-const braincalc = () => {
+export const getQuestion = () => {
   const resultArray = [];
-  for (let i = 0; i < 3; i += 1) {
+  for (let i = 0; i < gameIterations; i += 1) {
     const firstnum = getRandomNum(1, 100);
     const secondnum = getRandomNum(1, 100);
     const symbol = getRandomSymbol(symbols);
@@ -25,4 +27,3 @@ const braincalc = () => {
 
   return resultArray;
 };
-export default braincalc;

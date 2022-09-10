@@ -1,5 +1,7 @@
 import getRandomNum from '../helper.js';
+import { gameIterations } from '../index.js';
 
+export const gamerule = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 const isPrime = (num) => {
   let result;
   let tester = 1;
@@ -17,15 +19,13 @@ const isPrime = (num) => {
   }
   return result;
 };
-const brainprime = () => {
+export const getQuestion = () => {
   const resultArray = [];
   let result;
-  for (let i = 0; i < 3; i += 1) {
+  for (let i = 0; i < gameIterations; i += 1) {
     const number = getRandomNum(3, 50);
     result = isPrime(number);
     resultArray.push(number, result);
   }
   return resultArray;
 };
-
-export default brainprime;
