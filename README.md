@@ -1,6 +1,6 @@
 ### Hexlet tests and linter status:
-[![Actions Status](https://github.com/Anderleht/frontend-project-44/workflows/hexlet-check/badge.svg)]
-[![Maintainability](https://api.codeclimate.com/v1/badges/32531ba17ae674f00aee/maintainability)]
+![Actions Status](https://github.com/Anderleht/frontend-project-44/workflows/hexlet-check/badge.svg)
+![Maintainability](https://api.codeclimate.com/v1/badges/32531ba17ae674f00aee/maintainability)
 ## Описание
 Набор консольных игр-викторин, где игроку предлагается ответить на три вопроса. Ответив на все правильно, игрок побеждает. Ошибка в ответе на любой вопрос завершает игру. 
 ## Требование к системе
