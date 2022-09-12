@@ -10,15 +10,15 @@ export const getQuestion = () => {
     const secondnum = getRandomNum(1, 100);
     const symbol = symbols[getRandomNum(0, symbols.length - 1)];
     const question = `${firstnum} ${symbol} ${secondnum}`;
-    let result;
+    let rightAnswer;
     if (symbol === '*') {
-      result = firstnum * secondnum;
+      rightAnswer = firstnum * secondnum;
     } else if (symbol === '+') {
-      result = firstnum + secondnum;
+      rightAnswer = firstnum + secondnum;
     } else if (symbol === '-') {
-      result = firstnum - secondnum;
+      rightAnswer = firstnum - secondnum;
     }
-    resultArray.push(question, result);
+    resultArray.push(question, rightAnswer);
   }
 
   return resultArray;
