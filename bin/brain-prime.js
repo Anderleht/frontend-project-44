@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { gamerule, getQuestion } from '../src/games/brain-prime.js';
+import { gameQuestion, getQuestion } from '../src/games/brain-prime.js';
 import { GetanAnswer } from '../src/index.js';
 
-GetanAnswer(gamerule, getQuestion());
+GetanAnswer(gameQuestion, getQuestion());
