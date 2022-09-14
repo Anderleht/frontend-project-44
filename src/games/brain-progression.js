@@ -4,7 +4,7 @@ import { gameIterations } from '../index.js';
 export const gameQuestion = 'What number is missing in the progression?';
 const getProgression = () => {
   let begin = getRandomNum(1, 15);
-  const end = getRandomNum(40, 80);
+  const end = getRandomNum(50, 90);
   const step = getRandomNum(3, 10);
   const array = [];
   while (begin <= end) {
