@@ -10,10 +10,10 @@ const getGcd = (x, y) => {
 export const getQuestion = () => {
   const resultArray = [];
   for (let i = 0; i < gameIterations; i += 1) {
-    const firstnum = getRandomNum(1, 100);
-    const secondnum = getRandomNum(1, 100);
-    const question = `${firstnum} ${secondnum}`;
-    const rightAnswer = getGcd(firstnum, secondnum);
+    const firstNum = getRandomNum(1, 100);
+    const secondNum = getRandomNum(1, 100);
+    const question = `${firstNum} ${secondNum}`;
+    const rightAnswer = getGcd(firstNum, secondNum);
     resultArray.push(question, rightAnswer);
   }
   return resultArray;

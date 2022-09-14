@@ -3,12 +3,8 @@ import { gameIterations } from '../index.js';
 
 export const gameQuestion = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 const isPrime = (num) => {
-  let amountofdiv = 0;
   for (let i = 2; i < num; i += 1) {
     if (num % i === 0) {
-      amountofdiv += 1;
-    }
-    if (amountofdiv !== 0) {
       return false;
     }
   }
