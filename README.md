@@ -19,7 +19,7 @@ brain-even
 ```
 Игроку нужно ответить "yes" если число чётное и "no" если нет.
 
-[пример игры brain-even](https://asciinema.org/a/V5F31V8ufAuzgl0VmJ6Ut4lKY)
+[пример игры brain-even](https://asciinema.org/a/H5AhKbsEg2kQ9GlPhZCzzTInl)
 
 
 ### brain-сalc
@@ -29,7 +29,7 @@ brain-calc
 ```
 Игрок должен вычислить результат выражения.
 
-[пример игры brain-calc](https://asciinema.org/a/lyHjAbqaiTrkxS0aVx4GEUAqz)
+[пример игры brain-calc](https://asciinema.org/a/kc57LshDkiXiFCwyB7Q5JNpdx)
 
 ### brain-gcd
 запуск игры:
@@ -38,7 +38,7 @@ brain-gcd
 ```
 Игроку нужно найти наибольший общий делитель данных чисел.
 
-[пример игры brain-gcd](https://asciinema.org/a/wOijpajGM3fowpHcRC1k9uzNU)
+[пример игры brain-gcd](https://asciinema.org/a/X3OSVeLZCtee30gLIhMrBVUcF)
 
 ### brain-prime
 запуск игры:
@@ -47,7 +47,7 @@ brain-prime
 ```
 Игроку нужно ответить «да», если данное число простое. В противном случае ответить «нет».
 
-[пример игры brain-prime](https://asciinema.org/a/MVOVbtB8sVsNGuckUMuXYKCeG)
+[пример игры brain-prime](https://asciinema.org/a/dTDs3BpeTmDbLeL1vyJudw52I)
 
 ### brain-progression
 запуск игры:
@@ -56,4 +56,4 @@ brain-progression
 ```
 Игроку нужно найти какое число пропущено в прогрессии.
 
-[пример игры brain-progression](https://asciinema.org/a/eoh5FR35MUj2UqaGwhMFXgq79)
+[пример игры brain-progression](https://asciinema.org/a/WanPrBnsYbEjqiupZqSESv8Fk)
