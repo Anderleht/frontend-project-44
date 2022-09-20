@@ -1,14 +1,15 @@
 ### Hexlet tests and linter status:
 ![Actions Status](https://github.com/Anderleht/frontend-project-44/workflows/hexlet-check/badge.svg)
-![Maintainability](https://api.codeclimate.com/v1/badges/32531ba17ae674f00aee/maintainability)
+[![Maintainability](https://api.codeclimate.com/v1/badges/32531ba17ae674f00aee/maintainability)](https://codeclimate.com/github/Anderleht/frontend-project-44/maintainability)
 ## Описание
 Набор консольных игр-викторин, где игроку предлагается ответить на три вопроса. Ответив на все правильно, игрок побеждает. Ошибка в ответе на любой вопрос завершает игру. 
 ## Требование к системе
 node js версии не менее 13.0
+утилита "make"
 ## Установка
 ```
 git clone git@github.com:Anderleht/frontend-project-44.git
-в корневой папке проекта: npm install;
+в корневой папке проекта: make install;
 ```
 ## Список игр:
 

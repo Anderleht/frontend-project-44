@@ -1,5 +1,5 @@
 import getRandomNum from '../helper.js';
-import { gameIterations } from '../index.js';
+import { counRounds } from '../index.js';
 
 export const gameQuestion = 'What number is missing in the progression?';
 const getProgression = () => {
@@ -15,7 +15,7 @@ const getProgression = () => {
 };
 export const getQuestion = () => {
   const resultArray = [];
-  for (let i = 0; i < gameIterations; i += 1) {
+  for (let i = 0; i < counRounds; i += 1) {
     const progression = getProgression();
     const index = getRandomNum(1, progression.length - 1);
     const rightAnswer = progression[index];
