@@ -9,8 +9,8 @@ const getExpression = () => {
   const symbol = symbols[getRandomNum(0, symbols.length - 1)];
   return { firstNum, secondNum, symbol };
 };
-export const getQuestion = () => {
-  const resultArray = [];
+export const getQuestionAndAnswer = () => {
+  const questionAndResult = [];
   for (let i = 0; i < counRounds; i += 1) {
     const { firstNum, secondNum, symbol } = getExpression();
     const question = `${firstNum} ${symbol} ${secondNum}`;
@@ -22,8 +22,8 @@ export const getQuestion = () => {
     } else if (symbol === '-') {
       rightAnswer = firstNum - secondNum;
     }
-    resultArray.push(question, rightAnswer);
+    questionAndResult.push(question, rightAnswer);
   }
 
-  return resultArray;
+  return questionAndResult;
 };

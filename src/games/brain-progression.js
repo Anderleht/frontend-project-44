@@ -13,15 +13,15 @@ const getProgression = () => {
   }
   return array;
 };
-export const getQuestion = () => {
-  const resultArray = [];
+export const getQuestionAndAnswer = () => {
+  const questionAndResult = [];
   for (let i = 0; i < counRounds; i += 1) {
     const progression = getProgression();
     const index = getRandomNum(1, progression.length - 1);
     const rightAnswer = progression[index];
     progression[index] = '..';
     const question = progression.join(' ');
-    resultArray.push(question, rightAnswer);
+    questionAndResult.push(question, rightAnswer);
   }
-  return resultArray;
+  return questionAndResult;
 };

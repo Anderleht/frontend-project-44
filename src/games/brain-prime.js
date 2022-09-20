@@ -10,12 +10,12 @@ const isPrime = (num) => {
   }
   return true;
 };
-export const getQuestion = () => {
-  const resultArray = [];
+export const getQuestionAndAnswer = () => {
+  const questionAndResult = [];
   for (let i = 0; i < counRounds; i += 1) {
     const question = getRandomNum(3, 50);
     const rightAnswer = isPrime(question) ? 'yes' : 'no';
-    resultArray.push(question, rightAnswer);
+    questionAndResult.push(question, rightAnswer);
   }
-  return resultArray;
+  return questionAndResult;
 };

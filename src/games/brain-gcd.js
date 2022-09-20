@@ -7,14 +7,14 @@ const getGcd = (x, y) => {
   if (!y) return x;
   return getGcd(y, x % y);
 };
-export const getQuestion = () => {
-  const resultArray = [];
+export const getQuestionAndAnswer = () => {
+  const questionAndResult = [];
   for (let i = 0; i < counRounds; i += 1) {
     const firstNum = getRandomNum(1, 100);
     const secondNum = getRandomNum(1, 100);
     const question = `${firstNum} ${secondNum}`;
     const rightAnswer = getGcd(firstNum, secondNum);
-    resultArray.push(question, rightAnswer);
+    questionAndResult.push(question, rightAnswer);
   }
-  return resultArray;
+  return questionAndResult;
 };
