@@ -1,5 +1,5 @@
 import getRandomNum from '../helper.js';
-import { counRounds } from '../index.js';
+import { countRounds } from '../index.js';
 
 export const gameQuestion = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 const isPrime = (num) => {
@@ -12,10 +12,10 @@ const isPrime = (num) => {
 };
 export const getQuestionAndAnswer = () => {
   const questionAndResult = [];
-  for (let i = 0; i < counRounds; i += 1) {
+  for (let i = 0; i < countRounds; i += 1) {
     const question = getRandomNum(3, 50);
     const rightAnswer = isPrime(question) ? 'yes' : 'no';
-    questionAndResult.push(question, rightAnswer);
+    questionAndResult.push([question, rightAnswer]);
   }
   return questionAndResult;
 };

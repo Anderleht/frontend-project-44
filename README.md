@@ -1,60 +1,60 @@
 ### Hexlet tests and linter status:
 ![Actions Status](https://github.com/Anderleht/frontend-project-44/workflows/hexlet-check/badge.svg)
 [![Maintainability](https://api.codeclimate.com/v1/badges/32531ba17ae674f00aee/maintainability)](https://codeclimate.com/github/Anderleht/frontend-project-44/maintainability)
-## Описание
-Набор консольных игр-викторин, где игроку предлагается ответить на три вопроса. Ответив на все правильно, игрок побеждает. Ошибка в ответе на любой вопрос завершает игру. 
-## Требование к системе
-node js версии не менее 13.0
-утилита "make"
-## Установка
+## Description
+A set of console quiz games where the player has to answer three questions. If all answers are correct, the player wins. A mistake in answering any question ends the game.
+## System requirement
+node js version at least 13.0
+"make" utility
+## Installation
 ```
 git clone git@github.com:Anderleht/frontend-project-44.git
-в корневой папке проекта: make install;
+in main folder of project: make install;
 ```
-## Список игр:
+## List of games:
 
 ### brain-even
-запуск игры:
+game launch:
 ```
 brain-even
 ```
-Игроку нужно ответить "yes" если число чётное и "no" если нет.
+The player needs to answer "yes" if the number is even and "no" if it's not.
 
-[пример игры brain-even](https://asciinema.org/a/H5AhKbsEg2kQ9GlPhZCzzTInl)
+[brain-even game example](https://asciinema.org/a/H5AhKbsEg2kQ9GlPhZCzzTInl)
 
 
 ### brain-сalc
-запуск игры:
+game launch:
 ```
 brain-calc
 ```
-Игрок должен вычислить результат выражения.
+The player must find the result of the expression.
 
-[пример игры brain-calc](https://asciinema.org/a/kc57LshDkiXiFCwyB7Q5JNpdx)
+[brain-calc game example](https://asciinema.org/a/kc57LshDkiXiFCwyB7Q5JNpdx)
 
 ### brain-gcd
-запуск игры:
+game launch:
 ```
 brain-gcd
 ```
-Игроку нужно найти наибольший общий делитель данных чисел.
+The player needs to find the greatest common divisor of the given numbers.
 
-[пример игры brain-gcd](https://asciinema.org/a/X3OSVeLZCtee30gLIhMrBVUcF)
+[brain-gcd game example](https://asciinema.org/a/X3OSVeLZCtee30gLIhMrBVUcF)
 
 ### brain-prime
-запуск игры:
+game launch:
 ```
 brain-prime
 ```
-Игроку нужно ответить «да», если данное число простое. В противном случае ответить «нет».
+The player needs to answer "yes" if the given number is prime. Otherwise, answer "no".
 
-[пример игры brain-prime](https://asciinema.org/a/dTDs3BpeTmDbLeL1vyJudw52I)
+[brain-prime example](https://asciinema.org/a/dTDs3BpeTmDbLeL1vyJudw52I)
 
 ### brain-progression
-запуск игры:
+game launch:
 ```
 brain-progression
 ```
-Игроку нужно найти какое число пропущено в прогрессии.
+The player needs to find what number is missing in the progression.
 
-[пример игры brain-progression](https://asciinema.org/a/WanPrBnsYbEjqiupZqSESv8Fk)
+[brain-progression game example](https://asciinema.org/a/WanPrBnsYbEjqiupZqSESv8Fk)

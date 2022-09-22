@@ -1,5 +1,5 @@
 import getRandomNum from '../helper.js';
-import { counRounds } from '../index.js';
+import { countRounds } from '../index.js';
 
 export const gameQuestion = 'What number is missing in the progression?';
 const getProgression = () => {
@@ -15,13 +15,13 @@ const getProgression = () => {
 };
 export const getQuestionAndAnswer = () => {
   const questionAndResult = [];
-  for (let i = 0; i < counRounds; i += 1) {
+  for (let i = 0; i < countRounds; i += 1) {
     const progression = getProgression();
     const index = getRandomNum(1, progression.length - 1);
     const rightAnswer = progression[index];
     progression[index] = '..';
     const question = progression.join(' ');
-    questionAndResult.push(question, rightAnswer);
+    questionAndResult.push([question, rightAnswer]);
   }
   return questionAndResult;
 };
