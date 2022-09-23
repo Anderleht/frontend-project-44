@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-import { gameQuestion, getQuestionAndAnswer } from '../src/games/brain-prime.js';
-import { getAnswer } from '../src/index.js';
+import gamePlay from '../src/games/brain-prime.js';
 
-getAnswer(gameQuestion, getQuestionAndAnswer());
+gamePlay();

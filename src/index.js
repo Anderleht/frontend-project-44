@@ -1,12 +1,13 @@
 import readlineSync from 'readline-sync';
 import userName from './cli.js';
 
-export const countRounds = 3;
-export const getAnswer = (description, rounds) => {
+const countRounds = 3;
+export default (description, getQuestionAndAnswer) => {
   console.log(description);
-  for (const [question, answer] of rounds) {
+  for (let i = 0; i < countRounds; i += 1) {
+    const { question, rightAnswer } = getQuestionAndAnswer();
     const gameQuestion = question;
-    const userAnswer = String(answer);
+    const userAnswer = String(rightAnswer);
     console.log(`Question: ${gameQuestion}`);
     const answerInGame = readlineSync.question('Your answer: ');
     if (String(answerInGame) === userAnswer) {
