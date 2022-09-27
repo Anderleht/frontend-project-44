@@ -30,7 +30,7 @@ brain-calc
 ```
 The player must find the result of the expression.
 
-[brain-calc game example](https://asciinema.org/a/kc57LshDkiXiFCwyB7Q5JNpdx)
+[![asciicast](https://asciinema.org/a/kc57LshDkiXiFCwyB7Q5JNpdx.svg)](https://asciinema.org/a/kc57LshDkiXiFCwyB7Q5JNpdx)
 
 ### brain-gcd
 game launch:
@@ -39,7 +39,7 @@ brain-gcd
 ```
 The player needs to find the greatest common divisor of the given numbers.
 
-[brain-gcd game example](https://asciinema.org/a/X3OSVeLZCtee30gLIhMrBVUcF)
+[![asciicast](https://asciinema.org/a/X3OSVeLZCtee30gLIhMrBVUcF.svg)](https://asciinema.org/a/X3OSVeLZCtee30gLIhMrBVUcF)
 
 ### brain-prime
 game launch:
@@ -48,7 +48,7 @@ brain-prime
 ```
 The player needs to answer "yes" if the given number is prime. Otherwise, answer "no".
 
-[brain-prime example](https://asciinema.org/a/dTDs3BpeTmDbLeL1vyJudw52I)
+[![asciicast](https://asciinema.org/a/dTDs3BpeTmDbLeL1vyJudw52I.svg)](https://asciinema.org/a/dTDs3BpeTmDbLeL1vyJudw52I)
 
 ### brain-progression
 game launch:
@@ -57,4 +57,4 @@ brain-progression
 ```
 The player needs to find what number is missing in the progression.
 
-[brain-progression game example](https://asciinema.org/a/WanPrBnsYbEjqiupZqSESv8Fk)
+[![asciicast](https://asciinema.org/a/WanPrBnsYbEjqiupZqSESv8Fk.svg)](https://asciinema.org/a/WanPrBnsYbEjqiupZqSESv8Fk)
