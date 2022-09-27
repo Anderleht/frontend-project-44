@@ -1,7 +1,7 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
-  "description": "Игра brain-games. Набор консольных игр-викторин, где игроку предлагается ответить на три вопроса. Ответив на все правильно, игрок побеждает. Ошибка в ответе на любой вопрос завершает игру.",
+  "description": "Game brain-games. A set of console quiz games where the player has to answer three questions. If all answers are correct, the player wins. A mistake in answering any question ends the game.",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

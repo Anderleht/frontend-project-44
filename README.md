@@ -20,7 +20,7 @@ brain-even
 ```
 The player needs to answer "yes" if the number is even and "no" if it's not.
 
-[brain-even game example](https://asciinema.org/a/H5AhKbsEg2kQ9GlPhZCzzTInl)
+[![asciicast](https://asciinema.org/a/H5AhKbsEg2kQ9GlPhZCzzTInl.svg)](https://asciinema.org/a/H5AhKbsEg2kQ9GlPhZCzzTInl)
 
 
 ### brain-сalc
